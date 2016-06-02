@@ -23,10 +23,6 @@
 #help {
   font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-body {
-  padding: 50px;
-}
-
 a {
   color: #00B7FF;
 }
@@ -35,6 +31,7 @@ a {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+  padding: 50px;
 }
 
 #room {
@@ -49,4 +46,28 @@ a {
   background-color: #eee;
   margin-bottom: 1em;
   margin-right: 10px;
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  /*margin-top: 50px;*/
+}
+.wrapper {
+  min-height: 100%;
+  margin: 0px auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+  height: 155px; /* '.push' must be the same height as 'footer' */
+}
+
+.footer {
+  background-color: black;
+  width:100%;
+  padding: 0px;
 }
