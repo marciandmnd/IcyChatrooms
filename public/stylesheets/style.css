@@ -1,12 +1,14 @@
-#room-list {
-  float: right;
-  width: 100px;
-  height: 300px;
-  overflow: auto;
+#brand {
+  font-family: 'Righteous', cursive;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 2rem;
+  color: #00ccff;
 }
 
-#room-list div {
-  border-bottom: 1px solid #eee;
+body {
+  font-family: 'Righteous', cursive;
 }
 
 #room-list div:hover {
@@ -20,9 +22,6 @@
   margin-right: 1em;
 }
 
-#help {
-  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
 a {
   color: #00B7FF;
 }
@@ -35,17 +34,15 @@ a {
 }
 
 #room {
-  background-color: #ddd;
+  background-color: #fbfbfb;
+  border: 1px solid #00ccff;
   margin-bottom: 1em;
 }
 
 #messages{
-  width: 690px;
   height: 300px;
   overflow: auto;
-  background-color: #eee;
-  margin-bottom: 1em;
-  margin-right: 10px;
+  border: 1px solid #00ccff;
 }
 
 * {
